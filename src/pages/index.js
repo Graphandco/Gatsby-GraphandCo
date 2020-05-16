@@ -30,8 +30,10 @@ const IndexPage = ({
                 />
             </Helmet>
             <HeroHeader />
-            <h2>Blog Posts &darr;</h2>
-            <div className='grids'>{Posts}</div>
+            <main>
+                <h2>Blog Posts &darr;</h2>
+                <div className='grids'>{Posts}</div>
+            </main>
         </Layout>
     );
 };

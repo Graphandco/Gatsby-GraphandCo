@@ -3,11 +3,10 @@ import { Link } from 'gatsby';
 import ThemeChanger from '../components/themeChanger';
 
 export default (props) => (
-    <>
-        <nav className='navigation'>
-            <Link to='/about'>A propos</Link>
-            <Link to='/contact'>Contact</Link>
-        </nav>
+    <nav className='navigation'>
+        <Link to='/about'>A propos</Link>
+        <Link to='/contact'>Contact</Link>
+
         <ThemeChanger />
-    </>
+    </nav>
 );
